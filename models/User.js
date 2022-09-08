@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
 })
 
 
-// Password hash middleware.
+// Password hash middleware. ln 13-33 encrypt passwords
  
  UserSchema.pre('save', function save(next) {
   const user = this

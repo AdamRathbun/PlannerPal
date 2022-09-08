@@ -56,3 +56,14 @@ app.use('/todos', todoRoutes)
 app.listen(process.env.PORT, () => {
     console.log('Server is running, you better catch it!')
 })
+
+
+// Passport is an authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. Diff kinds use diff strategies.
+// Mongoose for models (schemas and such)
+// Passport of auth. Look up 
+// session keeps user logged in and it works with MongoStore to store the client cookies in the database as session info (they have the same unique Id).
+// Flash is a flash notification for like if you login or sign up and type the wrong info in.
+// Morgan is a simple log/debugr for requests.
+// connectDB is for connecting to the database, some of it is outdated.
+// And then main and todo routes for each one.
+//express.urlencoded and the express.json allow me to look at diff parts of requests coming through

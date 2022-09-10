@@ -1,6 +1,6 @@
 # PlannerPal
 
-- PlannerPal is a full-stack daily planning app with login/auth, note creation, note sharing between users on the platform, mark complete/incomplete, and note deletion. Built with a #100Devs team.
+PlannerPal is a full-stack daily planning app with login/auth, note creation, note sharing between users on the platform, mark complete/incomplete, and note deletion. Built with a #100Devs team.
 
 ## How It's Made:
 
